@@ -1,33 +1,36 @@
 // Sistema de Nível de Herói //
 
-let nome 
-let nivel
+let nome = "Gandalf";
+// Definindo o nome do herói
+let XP = 10000000; // Definindo a quantidade de XP do herói
+let rank
+
 
 switch (true) {
-    case (nivel < 1000):
-        nome = "Ferro";
+    case (XP < 1000):
+        rank = "Ferro";
         break;
-    case (nivel > 1001 && nivel < 2000):
-        nome = "Bronze";
+    case (XP > 1001 && XP < 2000):
+        rank = "Bronze";
         break;
-    case (nivel > 2001 && nivel < 5000):
-        nome = "Prata";
+    case (XP > 2001 && XP < 5000):
+        rank = "Prata";
         break;
-    case (nivel > 5001 && nivel < 7000):
-        nome = "Ouro";
+    case (XP > 5001 && XP < 7000):
+        rank = "Ouro";
         break;
-    case (nivel > 7001 && nivel < 8000):
-        nome = "Platina";
+    case (XP > 7001 && XP < 8000):
+        rank = "Platina";
         break;
-    case (nivel > 8001 && nivel < 9000):
-        nome = "Ascendente";
+    case (XP > 8001 && XP < 9000):
+        rank = "Ascendente";
         break;
-    case (nivel > 9001 && nivel < 10000):
-        nome = "Imortal";
+    case (XP > 9001 && XP < 10000):
+        rank = "Imortal";
         break;
-    case (nivel >= 10001):
-        nome = "Radiante";
+    case (XP >= 10001):
+        rank = "Radiante";
         break;
 }
 
-console.log("O Herói de nome ", nome,  "está no nível de ", nivel);
+console.log("O Herói de nome " + nome +  " está no nível de " + rank);
