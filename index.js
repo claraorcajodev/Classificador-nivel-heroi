@@ -4,7 +4,7 @@ let nome = "Gandalf";
 // Definindo o nome do herói
 let XP = 10000000; 
 // Definindo a quantidade de XP do herói
-let rank
+let rank;
 
 
 switch (true) {
